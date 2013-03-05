@@ -1,0 +1,3 @@
+guard :pdflatex do
+  watch(%r{.+\.tex$})
+end
