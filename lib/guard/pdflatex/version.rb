@@ -1,5 +1,10 @@
+require 'guard'
+require 'guard/guard'
+
 module Guard
-  module Pdflatex
-    VERSION = "0.0.1"
+
+  class Pdflatex < Guard
+    VERSION = '0.0.1'
   end
+
 end

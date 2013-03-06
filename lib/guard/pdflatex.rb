@@ -8,9 +8,9 @@ module Guard
 
     # Gets called when all files should be regenerated.
     # @raise [:task_has_failed] when stop has failed
-    def run_all
-      run_on_changes(Watcher.match_files(self, Dir.glob('**{,/*/**}/*.tex')))
-    end
+    #def run_all
+    #  run_on_changes(Watcher.match_files(self, Dir.glob('**{,/*/**}/*.tex')))
+    #end
 
     # @param [Array<String>] paths of changed paths and files
     # @raise [:task_has_failed] when stop has failed
